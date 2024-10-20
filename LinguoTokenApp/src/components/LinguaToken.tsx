@@ -43,7 +43,7 @@ export default function EnglishLearningGame() {
   const nextQuestion = () => {
     setShowModal(false);
     setRewardClaimed(false);
-    setCurrentQuestion((prev) => (prev + 1) % questions.length); // Cycle through questions
+    setCurrentQuestion((prev) => (prev + 1) % questions.length); 
   };
 
   return (
@@ -53,7 +53,7 @@ export default function EnglishLearningGame() {
       alignItems: 'center',
       height: '100vh',
       width: '100vw',
-      background: 'linear-gradient(135deg, #ffecd2, #fcb69f)', // Soft pastel gradient
+      background: 'linear-gradient(135deg, #ffecd2, #fcb69f)', 
       color: '#333',
       position: 'relative',
     }}>
@@ -63,25 +63,25 @@ export default function EnglishLearningGame() {
         width: '400px',
         maxWidth: '98%',
         backgroundColor: 'white',
-        borderRadius: '16px', // Softer border-radius
-        boxShadow: '0 8px 20px rgba(0, 0, 0, 0.15)', // Deeper shadow for depth
+        borderRadius: '16px', 
+        boxShadow: '0 8px 20px rgba(0, 0, 0, 0.15)', 
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
         position: 'relative',
-        zIndex: 1, // Keeps the card above the footer
+        zIndex: 1, 
       }}>
         <h1 style={{ fontSize: '1.5rem', fontWeight: 'bold', marginBottom: '2rem', textAlign: 'center' }}>LinguaToken Game</h1>
         <ConnectButton client={client} />
         <h2 style={{ fontSize: '1.2rem', margin: '1rem 0', textAlign: 'center' }}>Balance: {balance} LTG</h2>
 
-        {/* Display the question */}
+        {}
         <div style={{ marginBottom: '2rem', textAlign: 'center' }}>
           <h3>{questions[currentQuestion].question}</h3>
         </div>
 
-        {/* Display answer options */}
+        {}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', width: '100%' }}>
           {questions[currentQuestion].options.map((option) => (
             <button
@@ -89,15 +89,15 @@ export default function EnglishLearningGame() {
               onClick={() => handleAnswer(option)}
               style={{
                 padding: '0.75rem 1.5rem',
-                background: '#f76c6c', // Coral background for buttons
+                background: '#f76c6c', 
                 color: 'white',
                 border: 'none',
-                borderRadius: '8px', // Softer button edges
+                borderRadius: '8px', 
                 cursor: 'pointer',
                 fontSize: '1rem',
                 transition: 'background-color 0.3s ease',
               }}
-              onMouseOver={(e) => (e.currentTarget.style.background = '#ff6f61')} // Darker coral on hover
+              onMouseOver={(e) => (e.currentTarget.style.background = '#ff6f61')} 
               onMouseOut={(e) => (e.currentTarget.style.background = '#f76c6c')}
             >
               {option}
@@ -105,7 +105,7 @@ export default function EnglishLearningGame() {
           ))}
         </div>
 
-        {/* Modal for showing rewards */}
+        {}
         {showModal && (
           <div style={{
             position: 'absolute',
@@ -147,7 +147,7 @@ export default function EnglishLearningGame() {
         width: '100%',
         textAlign: 'center',
         padding: '1rem 0',
-        backgroundColor: '#333', // Dark gray footer background
+        backgroundColor: '#333', 
         color: 'white',
         fontSize: '0.9rem',
         zIndex: 0,
