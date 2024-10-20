@@ -1,9 +1,9 @@
-import RockPaperScissors from "./components/RockPaperScissors"
+import LinguaToken from "./components/LinguaToken.tsx"
 
 function App() {
-  return (
-    <RockPaperScissors />
-  )
-}
+    return (
+        <LinguaToken />
+    )
 
+}
 export default App
