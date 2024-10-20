@@ -1,6 +1,7 @@
 # LinguoToken - Telegram Mini App
 
-![LinguoToken Logo](https://via.placeholder.com/600x150.png?text=LinguoToken+Logo)
+![Header](./app_photos/banner.png)
+# Link to TMA -> t.me/LinguoTokenBot/LinguoToken
 
 Welcome to the **LinguoToken** Telegram Mini App! This innovative application combines the power of **Web3**, **React**, and **TypeScript** to create a rewarding language learning experience.
 
