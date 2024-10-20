@@ -22,6 +22,16 @@ Welcome to the **LinguoToken** Telegram Mini App! This innovative application co
 - **Interactive Learning**: Engaging lessons enhanced with gamification elements.
 - **Community Engagement**: Compete and collaborate with users for rewards and recognition.
 
+## App Images
+-- - **Web3 Registration**: A Sign Up screen where you can register with yout Email, Apple id or Crypto Wallet!
+![Alt text](./app_photos/Sign_UpIn.jpg?raw=true "Sign Up")
+
+- **Web3 Wallets**: Choose any wallet to sign up **Metamask**, **Coinbase** And Etc.
+- ![Alt text](./app_photos/LinkYourCrypto_wallet.jpg?raw=true "Sign Up")
+- **Web3 Quiz**: Play interactive English Quiz game and improve your english Level!
+
+- ![Alt text](./app_photos/Quiz.jpg?raw=true "Sign Up")
+---
 ---
 
 ## 🛠 Technologies Used
