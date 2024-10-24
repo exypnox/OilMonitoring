@@ -152,7 +152,7 @@ export default function EnglishLearningGame() {
         fontSize: '0.9rem',
         zIndex: 0,
       }}>
-        Made by Saidahmad -> SmartChain LLC
+        Made by Saidahmad - SmartChain LLC
       </footer>
     </div>
   );
