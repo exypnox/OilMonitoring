@@ -1,9 +1,12 @@
-import LinguaToken from "./components/LinguaToken.tsx"
+import React from "react";
+import MapPage from "./pages/MapPage";
 
-function App() {
-    return (
-        <LinguaToken />
-    )
+const App: React.FC = () => {
+  return (
+    <div style={{ height: "100vh", width: "100%" }}>
+      <MapPage />
+    </div>
+  );
+};
 
-}
-export default App
+export default App;
